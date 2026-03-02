@@ -91,3 +91,42 @@ body {
 .barra:hover img {
     transform: scale(1.1);
 }
+
+.dica-container {
+    text-align: center;
+    padding: 3rem 10%;
+    background-color: #ffffff; /* Fundo branco para destacar do body cinza */
+    margin: 2rem 10%;
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.dica-container h1 {
+    color: #007c32; /* Verde Vale */
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.dica-container p {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.dica-container p strong {
+    color: #007c32;
+}
+
+.dica-container img {
+    width: 300px;
+    max-width: 90%; /* Responsivo */
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #eeeeee;
+    transition: transform 0.3s ease;
+}
+
+/* Efeito sutil ao passar o mouse na imagem da dica */
+.dica-container img:hover {
+    transform: scale(1.02);
+}
