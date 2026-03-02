@@ -14,27 +14,15 @@ body {
 .header {
     position: fixed;
     top: 0; left: 0; width: 100%;
-    padding: 1.3rem 10%;
+    padding: 1rem 0;
     background: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Centraliza a logo */
     align-items: center;
     z-index: 100;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-.navegacao a {
-    font-size: 1.1rem;
-    color: #007c32; /* Verde Vale */
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 2.5rem;
-    transition: .3s;
-}
-
-.navegacao a:hover, .navegacao a.ativo {
-    color: #ffb81c; /* Amarelo/Dourado Vale */
-}
 
 /* Seção Localizações */
 .locs {
